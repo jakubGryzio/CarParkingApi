@@ -1,0 +1,41 @@
+# Dotnet-specific ignores
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.pdb
+*.cache
+*.log
+*.vs/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Secrets
+secrets.json
+
+# OS-specific files
+*.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+*.pid
+*.pid.lock
+
+# Generated files
+*.generated.cs
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+*.swp
+
+# Publish outputs
+.publish/
